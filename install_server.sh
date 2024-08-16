@@ -21,7 +21,7 @@ else
     FILENAME="vhusbdi386"
   fi
 fi
-wget http://192.168.1.134/$FILENAME
+wget https://github.com/deker1176/VirtualHere-USB-Server-v4.3.3/blob/main/Linux/$FILENAME
 chmod +x $FILENAME
 mv $FILENAME /usr/local/sbin
 mkdir -p /usr/local/etc/virtualhere
